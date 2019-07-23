@@ -53,15 +53,15 @@ module.exports =
 
     ]
   plugins: [
-    new CleanWebpackPlugin(["build"]),
+    #new CleanWebpackPlugin(["build"]),
     new ExtractTextPlugin(
       filename: 'app.css'
       allChunks: true
     ),
-    # The following lines insert a link to produced [module].bundle.js into a [module].html file
     new CopyWebpackPlugin([
       from: "src/manifest.json",
     ]),
+    # The following lines insert a link to produced [module].bundle.js into a [module].html file
     new HtmlWebpackPlugin({
       template: path.join(__dirname, "src", "popup.html"),
       filename: "popup.html",
