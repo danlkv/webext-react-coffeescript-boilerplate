@@ -1,11 +1,18 @@
-# React + Coffeescript = Web Extension
+The nice feature of this boilerplate that you can easily reuse code from any react project. 
+It's fully ok if you use js, just add the js part to webpack.config.coffee.
 
-technologies included:
+# Usage
 
- - coffeescript
- - less, css
+1. Install packages: `yarn` or `npm i`
+2. Build the extension: `yarn build`
+3. Install web-ext tool
+4. Test it with running `web-ext run` from `build/` folder
 
+App will update automatically on rebuild.
+You may want to install npm-watch to automatically rebuild.
 
+You can also use Hot-reload.
+Instructions for this are still under development.
 
 Browsers:
     - Firefox >48
