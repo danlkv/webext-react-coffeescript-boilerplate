@@ -1,7 +1,11 @@
 body {
     text-align:center;
-    font-family:Monospace, Roboto;
     color:#121F7A;
     background-color:#f6f6f6;
+}
+
+.popup {
+    color:#151F7A;
+    margin: 0.5em;
 }
 
