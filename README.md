@@ -21,11 +21,12 @@ It's fully ok if you use js, just add the js part to webpack.config.coffee.
 3. Install web-ext tool
 4. Run it with running `web-ext run` from `build/` folder
 
-App will update automatically on rebuild.
-You may want to install npm-watch to automatically rebuild.
+## Auto-reload
 
-You can also use Hot-reload.
-Instructions for this are still under development.
+or use autoreload: `yarn start`
+
+App will update automatically on rebuild.
+
 
 Browsers:
 - Firefox >48
