@@ -34,7 +34,7 @@ It will automatically reload extension on file change.
 
 To write without wondering about Firefox vs Chrome,
 use `import browser from 'webextension-polyfill'`.
-More details: [web-extension to reload web-extension](https://chrome.google.com/webstore/detail/dev-extensions-reload/bbanndmhbmgajamonlgnjnfdbifbnbdj/related).
+More details: [webextension-polyfill](https://github.com/mozilla/webextension-polyfill).
 
 ## Hot reload
 
