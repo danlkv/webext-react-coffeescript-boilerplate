@@ -1,11 +1,11 @@
-This is a boilerplate repo for starting a modular development of browser extension.
+This is a boilerplate repo for starting a modular development of a browser extension.
 
 Here you will find boilerplate for:
 - Popup and options pages 
 - Background and content scripts
 - Manifest file for extension
 
-All this with support for 
+All this with 
 - React
 - Webpack
 - Coffeescript
