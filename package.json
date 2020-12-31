@@ -6,7 +6,7 @@
   "license": "GPL-3.0-only",
   "repository": "https://github.com/DaniloZZZ/react-coffeescript-boilerplate",
   "scripts": {
-    "start": "yarn run dev-hot",
+    "start": "yarn run dev-ssl",
     "dev-ssl": "webpack-dev-server --https --key localhost-key.pem --cert localhost.pem",
     "dev": "webpack-dev-server",
     "build": "yarn run clean && NODE_ENV=production webpack -p",
