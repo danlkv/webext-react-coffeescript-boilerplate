@@ -44,13 +44,13 @@ You can skip it, and just click on reload button to update the extension.
 1. Install [mkcert](https://github.com/FiloSottile/mkcert).
 2. Run `mkcert -install` and then `mkcert localhost` in the root of the project.
 3. Run `yarn start`, which is equivalent to `yarn dev-ssl`.
-
+```
     » yarn start
     yarn run v1.22.10
     $ yarn run dev-ssl
     $ webpack-dev-server --https --key localhost-key.pem --cert localhost.pem
     ℹ ｢wds｣: Project is running at https://localhost:8081/
-
+```
 4. Popup, and background will reload on file write by webpack dev server.
 Content reloads, but doesn't update for some reason.
 Note that this will make all the pages with content scripts reload as well, which 
