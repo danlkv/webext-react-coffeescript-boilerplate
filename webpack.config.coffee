@@ -15,6 +15,8 @@ isProduction = process.env.NODE_ENV is 'production'
 
 module.exports =
   mode: process.env.NODE_ENV || "development",
+  devServer:
+    disableHostCheck: true
   entry:
     popup: path.join(__dirname, "src", "popup", "popup.coffee"),
     options: path.join(__dirname, "src", "options", "options.coffee"),
